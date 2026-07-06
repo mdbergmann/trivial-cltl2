@@ -4,4 +4,5 @@
   :description "Compatibility package exporting CLtL2 functionality"
   :license "LLGPL"
   :components ((:file "cltl2")
-               (:file "allegro" :if-feature :allegro)))
+               (:file "allegro" :if-feature :allegro)
+               (:file "clamiga" :if-feature :cl-amiga)))
